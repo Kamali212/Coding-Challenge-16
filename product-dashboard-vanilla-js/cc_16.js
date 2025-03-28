@@ -59,3 +59,9 @@ function displayProducts(products) {
         container.appendChild(listProduct);
     })
 }
+
+// Task 5: Reusable Error Handle
+
+function handleError(error) {
+    console.error("An Error Occure", error.message)
+}
