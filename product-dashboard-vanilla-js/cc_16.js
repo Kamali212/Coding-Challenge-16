@@ -65,3 +65,8 @@ function displayProducts(products) {
 function handleError(error) {
     console.error("An Error Occure", error.message)
 }
+
+// Task 6: Call Your Fetch Function
+
+fetchProductsThen();
+fetchProductsAsync();
